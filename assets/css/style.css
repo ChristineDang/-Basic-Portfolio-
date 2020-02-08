@@ -1,5 +1,5 @@
 body {
-    background-image: url("subtle_white_feathers.png");
+    background-image: url("../images/subtle_white_feathers.png");
     
     
 }
@@ -48,7 +48,6 @@ h2 {
     float: left;
 
 }
-
 .content {
     width:960px;
     line-height: 1.8;
