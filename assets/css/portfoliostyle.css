@@ -40,12 +40,36 @@ h1 {
     text-align: auto;
 
 }
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+.card-label {
+    clear: both;
+    width: 280px;
+    background-color: #439692;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+
+}
+
 h2 {
     color: #439692;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.container {
+/* .container {
     width:960px;
     line-height: 2;
     margin: 0 auto 0 auto;
@@ -61,26 +85,27 @@ h2 {
     margin-bottom: 20px;
     resize: vertical;
 
-}
+} */
 
 #hangman {
-    float: left;
+    width: inherit;
 }
 
 #RPGGame {
-    float: center;
+    width: inherit;
 }
 
 #triviagame {
-    float: left;
+    width: inherit;
 }
 
 #infowidget {
-    float: center;
+    width: inherit;
 }
 
 #rockpaperscissors {
-    float: center;
+    width: inherit;
+
 }
 
 .backfooter {
